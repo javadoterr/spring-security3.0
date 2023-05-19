@@ -18,6 +18,7 @@ import io.jsonwebtoken.security.Keys;
 @Component
 public class JwtService {
 
+	//secret key
 	private String SECRET = "4528472B4B6250655368566D597133743677397A24432646294A404D63516654";
 
 	public String extractUsername(String token) {
